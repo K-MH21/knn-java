@@ -26,7 +26,7 @@ Preprocessing steps include:
 
 - **Java 11+**  
 - **Jupyter Notebook**
-- **[IJava kernel](https://github.com/SpencerPark/IJava)** for running Java in Jupyter
+- **[JJava kernel](https://github.com/dflib/jjava)** for running Java in Jupyter
 - The following JAR files:
   - [`opencsv-5.11.2.jar`](https://repo1.maven.org/maven2/com/opencsv/opencsv/5.11.2/)
   - [`commons-lang3-3.18.0.jar`](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/)
@@ -45,7 +45,7 @@ In the notebook, they are loaded with:
 
 1. Clone the repo.
 2. Make sure you have Java 11+ installed.
-3. Install Jupyter and the IJava kernel:
+3. Install Jupyter and the JJava kernel:
    - Instructions: [JJava GitHub](https://github.com/dflib/jjava)
 4. Download the required JAR files and place them in the same folder as the notebook.
 5. Launch the notebook:
